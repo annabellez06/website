@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Anna's Kitchen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">courses</a></li>
+                    <li><a href="">health</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+<!-------- About Us Content ------>
+
+<section class="about us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>The world's highest streaming culinary course</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda ea tempore ipsum officiis cumque! Fuga corporis labore, sint vero dolore voluptatibus, eveniet, libero culpa voluptatum animi voluptates eum ut commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, perferendis hic. Modi, veritatis! Dolores enim commodi vero ducimus quasi iusto doloribus ratione sapiente. Quisquam commodi vel obcaecati fugit est quibusdam.</p>
+            <a href="" class="red-btn color-show">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="/images/plate.jpg">
+        </div>
+
+    </div>
+
+</section>
+    
+
+
+
+<!------- Footer ------>
+
+<section class="footer">
+    <h4>Terms of Service</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto asperiores labore ducimus voluptates, maxime<br>earum nihil placeat, enim accusamus veritatis explicabo aspernatur vitae quod, animi quo consequuntur. Incidunt, accusamus aut?
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Copyright © 2021, Annabelle Zhang </p>
+</section>
+
+<!-- Javascript for Responsive Toggle Menu -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    </script>
+    
+
+</body>
+</html>
